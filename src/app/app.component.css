@@ -1,0 +1,117 @@
+.sec {
+  background: transparent;
+  /* transform: skewY(20deg);
+  transform: skewX(45deg); */
+  text-align: center;
+}
+/*
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+*/
+
+a {
+  color: #4c9cf1;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #444;
+}
+
+img {
+  width: 100%;
+}
+
+header {
+  background: transparent;
+  z-index: 100;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  margin: 10px;
+}
+
+#menu-icon {
+  display: hidden;
+  width: 40px;
+  height: 40px;
+  background: url('https://images.pexels.com/photos/356378/pexels-photo-356378.jpeg?auto=compress&cs=tinysrgb&h=350')
+    center;
+}
+
+ul {
+  list-style: none;
+  margin: 0%;
+}
+
+li {
+  display: inline-block;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 640px) {
+  .kdfnjnfd {
+    /* background: url('http://qnimate.com/wp-content/uploads/2014/03/images2.jpg')
+      no-repeat; */
+    max-width: 100vw;
+    height: 50vh;
+    padding: 0%;
+    background-size: contain;
+  }
+
+  header {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  #menu-icon {
+    display: inline-block;
+  }
+
+  nav ul,
+  nav:active ul {
+    display: none;
+    position: absolute;
+    padding: 20px;
+    right: 20px;
+    top: 60px;
+    width: 30%;
+    /* height: 30px; */
+  }
+
+  nav ul,
+  nav:active ul {
+    display: flex;
+    /* position: absolute; */
+    /* padding: 20px; */
+    /* right: 20px; */
+    /* top: 60px; */
+    /* width: 30%; */
+    /* height: 30px; */
+    justify-content: center;
+  }
+
+  nav li {
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+    height: 30px;
+  }
+
+  nav:hover ul {
+    display: block;
+  }
+
+  .sec {
+    background: transparent;
+    transform: skewY(0deg);
+    transform: skewX(0deg);
+    /* border: 2px solid black; */
+  }
+}
