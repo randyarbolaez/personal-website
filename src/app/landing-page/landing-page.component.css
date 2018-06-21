@@ -31,7 +31,9 @@ a {
 
 a:hover {
   color: #ee5d6c;
+  /* background: yellow; */
   padding: 25px;
+  /* box-shadow: 1px 1px 1px 10px; */
 }
 
 img {
