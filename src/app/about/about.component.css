@@ -1,6 +1,6 @@
 .hello {
   /* background-image: url('../img/about-page.jpeg'); */
-  background: #bae1ff;
+  background: #f77d75;
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -9,3 +9,5 @@
   justify-content: center;
   flex-direction: column;
 }
+
+

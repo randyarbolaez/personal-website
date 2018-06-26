@@ -2,3 +2,17 @@
 body {
   margin: 0 auto;
 }
+
+.head-text {
+  align-self: center;
+  font-family: Arial;
+  font-size: 10em;
+  font-variant: small-caps;
+  margin: 0;
+}
+
+.details-text {
+  align-self: center;
+  width: 30%;
+  margin: 0;
+}
